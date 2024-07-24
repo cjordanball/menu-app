@@ -1,9 +1,3 @@
 export default function Meal({ params }) {
-	return (
-		<main>
-			<h1 style={{ color: 'white', textAlign: 'center' }}>
-				{params.slug.replace(/_/g, ' ')}
-			</h1>
-		</main>
-	);
+	return <h1>Meal Details</h1>;
 }
